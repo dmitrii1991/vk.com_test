@@ -58,3 +58,4 @@ api/migrations
 *.log
 chromedriver.exe
 geckodriver.exe
+.idea
