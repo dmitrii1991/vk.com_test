@@ -39,7 +39,7 @@
     pytest -v 
     # запуск теста с определенном маркером
     pytest -v -m login_guest
-    # запуск теста с определенном маркером в браузере title_vk
+    # запуск теста с определенном маркером в браузере firefox
     pytest --browser_name firefox -v -m title_vk
 
 ```
