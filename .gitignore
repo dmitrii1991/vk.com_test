@@ -54,7 +54,7 @@ env.bak/
 venv.bak/
 api/migrations
 
-# Django stuff:
 *.log
 chromedriver.exe
 geckodriver.exe
+.idea
