@@ -75,7 +75,7 @@ def title_page(request):
 @pytest.fixture(scope="function")
 def title_page_for_every_request(request):
     """
-    fixture for configure and launch the browser
+    fixture for configure and launch the browser.
     """
     browser_name = request.config.getoption("browser_name")
     user_language = request.config.getoption("language")
